@@ -1,0 +1,17 @@
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+<p>
+  <a class="btn btn-primary" href="#" (click)="isCollapsed = !isCollapsed" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+  </a>
+  <button class="btn btn-primary" type="button" (click)="isCollapsed = !isCollapsed" aria-expanded="false" aria-controls="collapseExample">
+    Button with data-target
+  </button>
+</p>
+<div [collapse]="isCollapsed">
+  <div class="card card-body">
+    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+  </div>
+</div>
